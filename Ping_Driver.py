@@ -3,7 +3,7 @@ import RPi.GPIO as GPIO
 import time
 
 # GPIO Mode (BOARD / BCM)
-GPIO.setmode(GPIO.BOARD)
+GPIO.setmode(GPIO.BCM)
 
 # set GPIO Pins
 GPIO_TRIGGER = 18
