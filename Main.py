@@ -2,8 +2,7 @@ import Detector_pingBased as Detector
 
 
 def send_message():
-    print('some bitch has arrived')
-
+    print('someone has arrived')
 
 while True:
     if Detector.detect_person():
