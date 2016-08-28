@@ -1,4 +1,4 @@
-import Detector_pingBased as Detector
+import Detector_PIR_Based as Detector
 from pygame import mixer
 import time
 
@@ -9,6 +9,7 @@ def send_message():
 
 mixer.init()
 alert = mixer.Sound('bell.wav')
+alert.play()
 counter = 0
 while True:
 #    print(Detector.detect_person())
